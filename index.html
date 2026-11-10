@@ -1,12 +1,277 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>My Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h2>Hi</h2>
-    <h1>This is a test project</h1>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar container">
+
+            <a href="#" class="logo">My<span>Portfolio.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero container" id="home">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hi, I'm <span>Monika</span>
+            </h1>
+
+            <h2>Front-End Developer</h2>
+
+            <p class="hero-description">
+                I create beautiful, responsive and user-friendly
+                websites using HTML and CSS.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="images/Profile.png" alt="My Profile">
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <div class="container">
+
+            <h2 class="section-title">About <span>Me</span></h2>
+
+            <div class="about-content">
+
+                <div class="about-image">
+                    <img src="images/Profile.png" alt="About Me">
+                </div>
+
+                <div class="about-text">
+
+                    <h3>I'm a Beginner Web Developer</h3>
+
+                    <p>
+                        Hello! My name is Monika Moahammadi. I am passionate
+                        about web development and designing websites.
+                        I enjoy learning new technologies and creating
+                        modern and responsive websites.
+                    </p>
+
+                    <p>
+                        My goal is to become a professional Front-End
+                        Developer and build amazing digital experiences.
+                    </p>
+
+                    <a href="#contact" class="btn">Let's Talk</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+
+        <div class="container">
+
+            <h2 class="section-title">My <span>Skills</span></h2>
+
+            <p class="section-description">
+                Technologies and skills I use in web development.
+            </p>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Building website structure.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Styling beautiful websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Creating mobile-friendly websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📐</div>
+                    <h3>Flexbox & Grid</h3>
+                    <p>Creating modern layouts.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+
+        <div class="container">
+
+            <h2 class="section-title">My <span>Projects</span></h2>
+
+            <p class="section-description">
+                Some of my recent practice projects.
+            </p>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+
+                    <img src="images/project1.png" alt="Coffee Shop Website">
+
+                    <div class="project-info">
+                        <h3>Coffee Shop Website</h3>
+
+                        <p>
+                            A modern and responsive coffee shop website.
+                        </p>
+
+                        <a href="#contact" class="project-link">
+                            View Project →
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <img src="images/project2.png" alt="Business Website">
+
+                    <div class="project-info">
+                        <h3>Business Website</h3>
+
+                        <p>
+                            A clean and professional business website.
+                        </p>
+
+                        <a href="#contact" class="project-link">
+                            View Project →
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <img src="images/project3.png" alt="Travel Website">
+
+                    <div class="project-info">
+                        <h3>Travel Website</h3>
+
+                        <p>
+                            A beautiful website for travel lovers.
+                        </p>
+
+                        <a href="#contact" class="project-link">
+                            View Project → 
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+
+        <div class="container">
+
+            <h2 class="section-title">Contact <span>Me</span></h2>
+
+            <p class="section-description">
+                Feel free to contact me for any project or collaboration.
+            </p>
+
+            <div class="contact-container">
+
+                <div class="contact-card">
+                    <h3>📧 Email</h3>
+                    <p>monika@gmail.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>📞 Phone</h3>
+                    <p>+98 729 456 789</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>📍 Location</h3>
+                    <p>Herat, Afghanistan</p>
+                </div>
+
+            </div>
+
+            <a href="mailto:monika@gmail.com" class="btn">
+                Send Me an Email
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Monika Mohammadi. All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
 </body>
 </html>
